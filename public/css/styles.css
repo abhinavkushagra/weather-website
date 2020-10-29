@@ -1,0 +1,92 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    border-top: 1px solid #eeeeee;
+    color: #888888;
+    margin: 16px 0  0  0;
+    padding: 16px 0;
+}
+
+header {
+    margin: 16px 0 48px 0;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.landscape {
+    width: 500px;
+}
+
+form {
+    display: flex;
+}
+
+#location {
+    height: 40px;
+    width: 90%;
+    border: 1px solid #eeeeee;
+    font-size: 25px;
+    color: #aaa;
+}
+input#location {
+    padding: 0 0 0 10px;
+}
+input::placeholder {
+    color: #ddd;
+}
+input:focus{
+    outline: none !important;
+    border:1px solid #aaa;
+    box-shadow: inset 0px 0px 1px 1px #888;
+}
+button#location {
+    height: 42px;
+    width: 10%;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button#location:focus {
+    outline: none !important;
+}
+
+button>img{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+img#weather-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 2px solid #333333;
+}
+
+
